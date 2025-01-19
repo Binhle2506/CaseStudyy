@@ -1,7 +1,7 @@
 body{
     margin:0px;
     padding: 0px;
-    background-color:#EDEDEE;
+    background-color: #FAF3DD ;
 }
 /*CSS Div Main*/
 #divMain{
@@ -92,4 +92,6 @@ body{
 img{
     display: block;
     margin: 0 auto;
+    width: 90%;
+    height: 100%;
 }
