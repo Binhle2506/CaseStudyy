@@ -6,13 +6,13 @@ document.head.appendChild(imported);
 function VeBanCoTrangDen(){
     for(var i = 1; i < 9; i++){
         for(var j = 1; j < 9; j++){
-            document.getElementById(i.toString() + j.toString()).style.backgroundColor = "rgb(255,255,255)";
+            document.getElementById(i.toString() + j.toString()).style.backgroundColor = "rgb(139, 69, 19)";
             if(i % 2 != 0 ){
                 if(j % 2 == 0)
-                    document.getElementById(i.toString() + j.toString()).style.backgroundColor = "rgb(170,182,155)";
+                    document.getElementById(i.toString() + j.toString()).style.backgroundColor = "rgb(222, 184, 135)";
             }else{
                 if(j % 2 != 0)
-                    document.getElementById(i.toString() + j.toString()).style.backgroundColor = "rgb(170,182,155)";
+                    document.getElementById(i.toString() + j.toString()).style.backgroundColor = "rgb(222, 184, 135)";
             }
         }
     }
